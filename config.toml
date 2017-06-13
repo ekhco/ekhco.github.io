@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "Aerial"
-baseurl = "http://example.org/"
+title = "Eric Chow: Climber, Data Scientist"
+baseurl = "https://ekhco.github.io/"
 theme = "aerial"
 
 [params]
-  name = "Adam Jensen"
-  about = "Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this"
-  copyright = "Untitled"
+  name = "Eric Chow"
+  about = "Biostatistician &nbsp;&bull;&nbsp; Stanford University \n I am a data scientist and I work in academic medicine. My ambition is to use data, algorithms, & statistics to increase our understanding of medicine, and ultimately to improve and save lives. I climb rocks and mountains in my free time."
+  copyright = "Eric Chow 2017"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
@@ -19,19 +19,14 @@ theme = "aerial"
 [[params.social]]
   medium = "Facebook"
   icon = "facebook"
-  link = "#"
-
-[[params.social]]
-  medium = "Dribbble"
-  icon = "dribbble"
-  link = "#"
+  link = "www.facebook.com/erickhchow"
 
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = "#"
+  link = "www.github.com/ekhco"
 
 [[params.social]]
   medium = "Email"
   icon = "envelope-o"
-  link = "#"
+  link = "echow8@stanford.edu"
