@@ -172,10 +172,10 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 2000s linear infinite;
-		-webkit-animation: bg 2000s linear infinite;
-		-ms-animation: bg 2000s linear infinite;
-		animation: bg 2000s linear infinite;
+		-moz-animation: bg 100s ease-in-out;
+		-webkit-animation: bg 100s ease-in-out;
+		-ms-animation: bg 100s ease-in-out;
+		animation: bg 100s ease-in-out;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
