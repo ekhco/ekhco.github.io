@@ -1,40 +1,37 @@
-baseurl = "/"
-relativeurls = true
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Aerial"
+baseurl = "http://example.org/"
 theme = "aerial"
-googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+  name = "Adam Jensen"
+  about = "Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this"
+  copyright = "Untitled"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = ""
+  favicon = "favicon.ico"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "#"
 
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "#"
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[[params.social]]
+  medium = "Dribbble"
+  icon = "dribbble"
+  link = "#"
 
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "#"
+
+[[params.social]]
+  medium = "Email"
+  icon = "envelope-o"
+  link = "#"
