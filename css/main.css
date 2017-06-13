@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #000000 url("images/bg.jpg") bottom right;
+		background: #000000 url("images/bg.jpg") bottom left;
 		background-repeat: none;
 		height: 100%;
 		left: 0;
@@ -769,7 +769,7 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: 4500px auto;
 			width: 4500px;
 		} }
 
@@ -851,7 +851,7 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: 2250px auto;
 			width: 2250px;
 		} }
 
@@ -937,7 +937,7 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
+			background-size: 900px auto;
 			width: 900px;
 		}
 
@@ -1035,7 +1035,7 @@
 		}
 
 		#bg {
-			background-size: 412.5px auto;
+			background-size: 1237.5px auto;
 			width: 1237.5px;
 		}
 
