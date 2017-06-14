@@ -1,32 +1,23 @@
+baseurl = "http://ekhco.github.io"
+title = "Eric Chow"
+theme = "dimension"
 languageCode = "en-us"
-title = "Eric Chow: Data Scientist"
-baseurl = "https://ekhco.github.io/"
-theme = "aerial"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableRSS = true
 
 [params]
-  name = "<br><br>Eric Chow"
-  about = "Biostatistician &nbsp;&bull;&nbsp; Stanford University<br><br> I am a healthcare data scientist with 6+ years of experience in academic medicine. My ambitions are to use data, algorithms, & statistics to increase our understanding of medicine, and ultimately to improve and save lives. I climb rocks and mountains in my free time."
+  title = "Eric Chow"
+  description = 'Biostatistician &bull; Stanford University  &bull; I am a healthcare data scientist with 6+ years of experience in academic research. My ambitions are to use data, algorithms, and statistics to increase our understanding of medicine, and ultimately to improve and save lives.'
+  logo = ""
   copyright = "Eric Chow"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = "none"
-  favicon = "favicon.ico"
 
 [[params.social]]
-  medium = "Instagram"
+  medium = "instagram"
   icon = "instagram"
-  link = "https://www.instagram.com/erickhc8/"
+  link = "#"
 
 [[params.social]]
-  medium = "Github"
+  medium = "github"
   icon = "github"
-  link = "http://www.github.com/ekhco/"
-
-[[params.social]]
-  medium = "Linkedin"
-  icon = "linkedin"
-  link = "https://www.linkedin.com/in/erickhchow/"
-
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "mailto:echow8@stanford.edu"
+  link = "#"
