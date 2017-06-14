@@ -10,14 +10,14 @@ disableRSS = true
   title = "Eric Chow"
   description = 'Biostatistician &bull; Stanford University  &bull; I am a healthcare data scientist with 6+ years of experience in academic research. My ambitions are to use data, algorithms, and statistics to increase our understanding of medicine, and ultimately to improve and save lives.'
   logo = ""
-  copyright = "Eric Chow"
+  copyright = "Eric Chow 2017"
 
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
-  link = "#"
+  link = "http://www.instagram.com/erickhc8"
 
 [[params.social]]
   medium = "github"
   icon = "github"
-  link = "#"
+  link = "http://www.github.com/ekhco"
