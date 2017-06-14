@@ -265,8 +265,8 @@
 	}
 
 	#bg {
-		background-size: 1280px auto;
-		width: 6750px;
+		background-size: 4800px auto;
+		width: 4800px;
 	}
 
 /* Overlay */
@@ -769,8 +769,8 @@
 		}
 
 		#bg {
-			background-size: 1280px auto;
-			width: 4500px;
+			background-size: 3600px auto;
+			width: 3600px;
 		} }
 
 /* Normal */
@@ -851,7 +851,7 @@
 		}
 
 		#bg {
-			background-size: 1280px auto;
+			background-size: 2250px auto;
 			width: 2250px;
 		} }
 
