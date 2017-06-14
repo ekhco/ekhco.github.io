@@ -12,9 +12,9 @@ theme = "aerial"
   favicon = "favicon.ico"
 
 [[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "http://www.facebook.com/erickhchow/"
+  medium = "Instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/erickhc8/"
 
 [[params.social]]
   medium = "Github"
