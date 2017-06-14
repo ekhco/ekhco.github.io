@@ -4,7 +4,7 @@ weight = 40
 draft = false
 +++
 
-<form method="post" action="#">
+<form method="post" action="mailto:echow8@stanford.edu">
 	<div class="field half first">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
