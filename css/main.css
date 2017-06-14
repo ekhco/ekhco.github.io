@@ -265,7 +265,7 @@
 	}
 
 	#bg {
-		background-size: 6750px auto;
+		background-size: 1280px auto;
 		width: 6750px;
 	}
 
@@ -320,7 +320,7 @@
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
-		background-size:  100% auto;
+		background-size: auto, cover;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -769,7 +769,7 @@
 		}
 
 		#bg {
-			background-size: 4500px auto;
+			background-size: 1280px auto;
 			width: 4500px;
 		} }
 
@@ -851,7 +851,7 @@
 		}
 
 		#bg {
-			background-size: 2250px auto;
+			background-size: 1280px auto;
 			width: 2250px;
 		} }
 
@@ -937,7 +937,7 @@
 		}
 
 		#bg {
-			background-size: 900px auto;
+			background-size: 1280px auto;
 			width: 900px;
 		}
 
@@ -1035,7 +1035,7 @@
 		}
 
 		#bg {
-			background-size: 1237.5px auto;
+			background-size: 1280px auto;
 			width: 1237.5px;
 		}
 
