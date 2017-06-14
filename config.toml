@@ -6,7 +6,7 @@ theme = "aerial"
 [params]
   name = "<br><br>Eric Chow"
   about = "Biostatistician &nbsp;&bull;&nbsp; Stanford University<br><br> I am a healthcare data scientist. My ambitions are to use data, algorithms, & statistics to increase our understanding of medicine, and ultimately to improve and save lives. I climb rocks and mountains in my free time."
-  copyright = "Eric Chow 2017"
+  copyright = "Eric Chow 2017, photo by Zinnia Xu @zincityyy"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = "none"
   favicon = "favicon.ico"
@@ -14,12 +14,17 @@ theme = "aerial"
 [[params.social]]
   medium = "Facebook"
   icon = "facebook"
-  link = "http://www.facebook.com/erickhchow"
+  link = "http://www.facebook.com/erickhchow/"
 
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = "http://www.github.com/ekhco"
+  link = "http://www.github.com/ekhco/"
+
+[[params.social]]
+  medium = "Linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/erickhchow/"
 
 [[params.social]]
   medium = "Email"
