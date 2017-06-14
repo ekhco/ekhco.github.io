@@ -21,3 +21,9 @@ disableRSS = true
   medium = "github"
   icon = "github"
   link = "http://www.github.com/ekhco"
+  
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/erickhchow/"
+  
