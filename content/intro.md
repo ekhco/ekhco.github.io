@@ -11,4 +11,4 @@ I'm a pro at survival analysis, Markov modelling, decision processing modelling,
 
 I speak Stata, and R, but also write in C when I want it to be fast. I only suffer Python for tensorflow.  I climb mountains and rock-faces on my weekends, and will travel to far away mountain ranges for more extended trips.
 
-Check out some examples of [my work](#work).
+Check out [some examples of my work](#work).

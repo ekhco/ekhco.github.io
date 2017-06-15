@@ -16,3 +16,5 @@ Can a stethoscope and a smartphone be used to listen to your breathing and warn 
 
 ### Patient-Centered Decision Modelling
 I wrote Markov models in C (and PhP) to help inform patient-centered decision problems.  In one problem, kids with kidney disease have to decide whether they should accept a donated kidney from someone they know, or if they should wait to get one from the list and "save" the other one for later. [Check out the online decision-tools I have made here.](http://www.transplantmodels.com)
+
+Check out [my peer-reviewed papers](#about)
