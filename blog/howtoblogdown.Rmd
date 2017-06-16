@@ -1,0 +1,199 @@
+---
+title: "How to Build a Website with Blogdown"
+output: html_document
+---
+
+### Introduction
+
+This tutorial shows you how to build a professional site using blogdown (an R package), Hugo (a static site builder), and host it on GitHub. Static sites have advantages (fast loading) since they are flat HTML pages, and disadvantages (less interactive). Another advantage is showcasing your ```R-code``` in markdown files!
+
+### Create an Empty Repository on GitHub
+
+1. To start, create a [GitHub](https://github.com/) account if you don't already have one.
+2. Create a new empty repository and name it "your_username.github.io" - this will be your new site.
+3. Clone the new empty repository to your local computer the way you normally would ([Git Bash](https://git-for-windows.github.io/) in Windows, or ```git clone https://github.com/yourusername/your_username.git``` in terminal on a Mac)
+
+### Installing Homebrew, the ```(Blogdown)``` Package, and Hugo
+
+1. [Homebrew](https://brew.sh) is a missing package manager for MacOS and installs a bunch of stuff so you can install Hugo later.  Open a terminal and paste in the install script (also found in the Homebrew link above):
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+2. Launch Rstudio and create a new project using the "Existing directory" of the cloned GitHub from above. Blogdown is a package you install like any other R package. I do it through Rstudio since it has a built in viewer to preview your website once you start building it. In the R terminal of Rstudio, install the devtools package, the blogdown package, and Hugo with this code:
+
+```
+# the devtools package helps you download blogdown
+install.packages(devtools)  
+library(devtools)
+
+# use devtools to install blogdown
+devtools::install_github("rstudio/blogdown") 
+library(blogdown)
+
+# install hugo using blogdown
+install_hugo()
+```
+
+
+### Creating a New Site
+
+Now that you have blogdown and hugo, you can create a new site using the blogdown function.  The second line installs a Hugo website theme by [digitalcraftsman](https://github.com/digitalcraftsman/hugo-strata-theme).  You can checkout lots of [Hugo themes here](https://themes.gohugo.io/).  Clicking on the "Homepage" button will take you to the Github where the theme is stored. To change your installed theme, just change the "github_username/theme_name" in the code. You can update the theme at anytime.  Make sure your working directory is still the repository for ```your_username.github.io``` in Rstudio:
+
+```
+# creates a new empty site using the blogdown function
+new_site()
+
+# install a Hugo website theme
+install_theme("digitalcraftsman/hugo-strata-theme", theme_example=TRUE, update_config=TRUE)
+
+# build and preview the website in Rstudio
+serve_site()
+```
+
+A bunch of things happened! files were created in your local directory. You also installed a Hugo theme. It's not live yet, but you can view it in the Rstudio viewer (that's what ```serve_site()``` did). Click the "Stop" to get your prompt back in Rstudio.  This is all local on your computer.  We have to do a few more setup things before we can "deploy" the site to GitHub:
+
+### Getting Hugo and GitHub to Work Together
+
+GitHub and Hugo work a bit differently, so we need to setup a work-around so that your site can be deployed to GitHub. We do this with GitHub branches:
+
+1. Go to your repository on GitHub. Click on the button "Branch:**master**" and in the text box, name it: "sources".  Click "**Create branch: sources** from 'master'"
+
+2. We need to switch the default branch from 'master' to 'sources': Click on the "**2** branches"" link, and click on "**Change default branch**" to change it to 'sources.' Github will freakout a bit, tell it that it's okay and everything will be fine.
+
+3. Let's pull 'sources' down to our local directory.  In terminal, ```cd``` to your GitHub working directory (your_username.github.io) and type:
+
+```
+git checkout sources
+```
+
+**WARNING: THE FOLLOWING WILL DELETE ANY CONTENT IN YOUR MASTER BRANCH!**
+
+4. [Jente Hidskes](https://hjdskes.github.io/blog/deploying-hugo-on-personal-gh-pages/index.html) wrote a convenient script that sets up your local website repository for deployment using Hugo.  Your computer needs to be [SSH-key authenticated to GitHub for this to work, go here](https://help.github.com/articles/connecting-to-github-with-ssh/) to set that up first.  In the codeblock below, change the ```USERNAME=hjdskes``` to your GitHub username, and ```SOURCE=hugo``` to 'SOURCE=sources'
+
+** RUN THE FOLLOWING SCRIPT ONLY ONCE **
+
+```
+#!/usr/bin/env bash
+
+# This script does the required work to set up your personal GitHub Pages
+# repository for deployment using Hugo. Run this script only once -- when the
+# setup has been done, run the `deploy.sh` script to deploy changes and update
+# your website. See
+# https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html
+# for more information.
+
+# GitHub username *** CHANGE THIS! ***
+USERNAME=hjdskes
+# Name of the branch containing the Hugo source files. *** ALSO, CHANGE THIS! that's it. ***
+SOURCE=hugo
+
+msg() {
+    printf "\033[1;32m :: %s\n\033[0m" "$1"
+}
+
+msg "Adding a README.md file to \'$SOURCE\' branch"
+touch README.md
+
+msg "Deleting the \`master\` branch"
+git branch -D master
+git push origin --delete master
+
+msg "Creating an empty, orphaned \`master\` branch"
+git checkout --orphan master
+git rm --cached $(git ls-files)
+
+msg "Grabbing one file from the \`$SOURCE\` branch so that a commit can be made"
+git checkout "$SOURCE" README.md
+git commit -m "Initial commit on master branch"
+git push origin master
+
+msg "Returning to the \`$SOURCE\` branch"
+git checkout -f "$SOURCE"
+
+msg "Removing the \`public\` folder to make room for the \`master\` subtree"
+rm -rf public
+git add -u
+git commit -m "Remove stale public folder"
+
+msg "Adding the new \`master\` branch as a subtree"
+git subtree add --prefix=public \
+    git@github.com:$USERNAME/$USERNAME.github.io.git master --squash
+
+msg "Pulling down the just committed file to help avoid merge conflicts"
+git subtree pull --prefix=public \
+    git@github.com:$USERNAME/$USERNAME.github.io.git master
+```
+
+### Building and Deploying Your Website to GitHub
+Okay! everything is setup! We can now edit our site locally in Rstudio, preview it with ```serve_site()``` locally, we can add/commit/push it to GitHub and then we can run a script to **deploy** it and make it live on your_username.github.io!:
+
+1. Let's make a small edit to your site. In Rstudio, open ```config.toml``` in the main your_username.github.io directory.  Here you can update your name, title, and social media for your website.  Make your edits, save the file.
+
+2. Okay, you've changed your website locally. Let's take a preview, in Rstudio:
+
+```
+serve_site()
+```
+
+3. Looks good? you'll notice that the Rstudio viewer shows your site locally. If you're happy with it, let's deploy it to GitHub! We use the ```git``` commands: ```add, commit, push``` to upload it to GitHub. Before we do that, let's setup our deploy script.
+
+4. Copy and paste the following codeblock into a ```deploy.sh``` file in your_username.github,io directory. Update the ```USERNAME=hjdskes``` and ```SOURCE=hugo``` as above and save it.  ```chmod 750 deploy.sh``` to make it executable.  This script will do the last step in deploying your pushed local copy of your website into the public site.
+
+**save this to deploy.sh:**
+
+```
+#!/usr/bin/env bash
+
+# This script allows you to easily and quickly generate and deploy your website
+# using Hugo to your personal GitHub Pages repository. This script requires a
+# certain configuration, run the `setup.sh` script to configure this. See
+# https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html
+# for more information.
+
+# Set the English locale for the `date` command.
+export LC_TIME=en_US.UTF-8
+
+# GitHub username.
+USERNAME=hjdskes
+# Name of the branch containing the Hugo source files.
+SOURCE=hugo
+# The commit message.
+MESSAGE="Site rebuild $(date)"
+
+msg() {
+    printf "\033[1;32m :: %s\n\033[0m" "$1"
+}
+
+msg "Pulling down the \`master\` branch into \`public\` to help avoid merge conflicts"
+git subtree pull --prefix=public \
+    git@github.com:$USERNAME/$USERNAME.github.io.git origin master -m "Merge origin master"
+
+msg "Building the website"
+hugo
+
+msg "Pushing the updated \`public\` folder to the \`$SOURCE\` branch"
+git add public
+git commit -m "$MESSAGE"
+git push origin "$SOURCE"
+
+msg "Pushing the updated \`public\` folder to the \`master\` branch"
+git subtree push --prefix=public \
+    git@github.com:$USERNAME/$USERNAME.github.io.git master
+```
+
+### Deploying your Website:
+
+1. Okay! You'll be running the following sequence a lot to deploy your site. In terminal, navigate to your_username.github.io if you aren't already there, and use git commands and the deploy.sh script to push your local copy on GitHub and make it live!:
+
+```
+git add *   
+git commit -m "I updated my info to the config.toml"
+git push
+./deploy.sh
+```
+
+congratulations! Your site is now live and on your_username.github.io.  I'll leave it up to your own creativity, coding, and hacking skills to add and modify content to your website. A word of advice: anything you edit in the ```public``` folder will be overwritten by the deployment scripts, so that's not where you change your site layout.  I learned this the hard way.
+
+If you have any questions, or if something I say is wrong here, [let me know!](#contact)
