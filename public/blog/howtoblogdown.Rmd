@@ -1,14 +1,10 @@
 ---
 date: 2017-06-16
-title: "Blog"
+title: "How to Build a Website with Blogdown"
 type: "post"
 author: Eric Chow
 draft: false
 ---
-
-2017-06-16
-
-## How to Build a Website with Blogdown
 
 ### Introduction
 
