@@ -12,6 +12,7 @@ disableRSS = true
   logo = ""
   copyright = "Eric Chow 2017"
 
+
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
