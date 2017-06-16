@@ -23,8 +23,8 @@
               <ul>
                 {{ range .Data.Pages.ByWeight }}
                   <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
-                  
                 {{ end }}
+                <li><a href="blog/">Blog</a></li>
               </ul>
             </nav>
           </header>
