@@ -16,15 +16,14 @@ disableRSS = true
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
-  link = "http://www.instagram.com/erickhc8"
+  link = "http://www.instagram.com/ericlimbs"
 
 [[params.social]]
   medium = "github"
   icon = "github"
   link = "http://www.github.com/ekhco"
-  
+
 [[params.social]]
   medium = "linkedin"
   icon = "linkedin"
   link = "https://www.linkedin.com/in/erickhchow/"
-  
