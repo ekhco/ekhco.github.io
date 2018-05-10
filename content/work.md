@@ -5,7 +5,7 @@ draft = false
 +++
 
 {{< figure class="image main" src="/images/pic02.jpg" >}}
-### Multi-Center Study of Spontaneous Coronary Artery Dissection
+### Spontaneous Coronary Artery Dissection
 I am the statistical lead on a multi-center study of SCAD. I advise the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
 
 ### Liver Simulated Allocation Model
