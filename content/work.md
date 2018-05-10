@@ -5,6 +5,9 @@ draft = false
 +++
 
 {{< figure class="image main" src="/images/pic02.jpg" >}}
+### Multi-Center Study of Spontaneous Coronary Artery Dissection
+I am the statistical lead on a multi-center study of SCAD. I advise the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
+
 ### Liver Simulated Allocation Model
 Allocation of donated organs to people with liver disease is challenging in the US. I worked with [mathematicians](https://www.usna.edu/Users/math/gentry/index.php), data from the [Scientific Registry for Transplant Recipients](http://www.srtr.org), and used simulation models to study hypothetical allocation systems that give people with liver disease a fairer chance at a life-saving liver transplant, regardless of where they live.
 
