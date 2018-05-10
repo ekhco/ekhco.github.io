@@ -10,7 +10,7 @@ I could always draw very well.  I had an elementary school art teacher who would
 
 {{< figure class="image main" src="/images/pic05.jpg" >}}
 
-Here's another example. For those familiar with Gray's Anatomy, you may notice that my inspiration for these sketches come from there.  Except this heart, I give inspirational credit to my medical illustrator friend, Hannah who does this professionally (http://www.hannahahn.com).
+Here's another example. For those familiar with Gray's Anatomy, you may notice that my inspiration for these sketches come from there.  Except this cross section of a heart. I forget where I saw this from.
 
 {{< figure class="image main" src="/images/pic06.jpg" >}}
 
