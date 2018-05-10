@@ -3,33 +3,37 @@
 
   
   <url>
-    <loc>http://ekhco.github.io/#intro</loc>
+    <loc>//#intro</loc>
   </url>
   
   <url>
-    <loc>http://ekhco.github.io/#work</loc>
+    <loc>//#art</loc>
   </url>
   
   <url>
-    <loc>http://ekhco.github.io/#about</loc>
+    <loc>//#work</loc>
   </url>
   
   <url>
-    <loc>http://ekhco.github.io/#contact</loc>
+    <loc>//#about</loc>
   </url>
   
   <url>
-    <loc>http://ekhco.github.io/#</loc>
+    <loc>//#contact</loc>
+  </url>
+  
+  <url>
+    <loc>//#</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ekhco.github.io/#</loc>
+    <loc>//#</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ekhco.github.io/#</loc>
+    <loc>//#</loc>
     <priority>0</priority>
   </url>
   
