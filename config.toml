@@ -8,7 +8,7 @@ disableRSS = true
 
 [params]
   title = "Eric Chow"
-  description = 'Biostatistician &bull; Stanford University  <p> I am a healthcare data scientist with 6+ years of experience in academic medical research. My ambitions are to use data, algorithms, and statistics to increase our understanding of medicine, and ultimately to improve and save lives. Sometimes I do medical illustration for fun. I also climb rocks.</p>'
+  description = 'Biostatistician &bull; Stanford University  <p> I am a healthcare data scientist with 6+ years of experience in academic medical research. My ambitions are to use data, algorithms, and statistics to increase our understanding of medicine, and ultimately to improve and save lives. Sometimes I do medical illustration for fun. I also climb rocks and mountains.</p>'
   logo = ""
   copyright = "Eric Chow 2017"
 
