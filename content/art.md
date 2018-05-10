@@ -8,7 +8,7 @@ draft = false
 ### Medical Illustrations
 I could always draw very well.  I had an elementary school art teacher who would always say that I had "the eye" in a very freaky ominous way.  I'm not sure where this eye is, but I think I just have very excellent fine motor skills.  I started drawing like this when I was about 11 years old.  At the time, my favorite subject were dinosaurs.
 
-{{< figure class="image main" src="/images/pic05.jpg" >}}
+{{< figure class="image main" src="/images/pic05b.jpg" >}}
 
 Here's another example. For those familiar with Gray's Anatomy, you may notice that my inspiration for these sketches come from there.  Except this cross section of a heart. I forget where I saw this from.
 
