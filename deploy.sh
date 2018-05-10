@@ -6,6 +6,9 @@
 # https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html
 # for more information.
 
+# go to ekhco directory
+# cd "~/Dropbox/ekhco/ekhco.github.io"
+
 # Set the English locale for the `date` command.
 export LC_TIME=en_US.UTF-8
 
