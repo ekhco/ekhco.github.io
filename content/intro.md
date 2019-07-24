@@ -4,7 +4,7 @@ weight = 10
 draft = false
 +++
 
-{{< figure class="image main" src="/images/pic07.jpg" >}}
+{{< figure class="image main" src="/images/pic07a.jpeg" >}}
 
 Hello, I'm Eric! Currently, I am a medical student at the Chicago Medical School at the Rosalind Franklin University with interests in wilderness medicine, critical care, and also radiology. Previously, I was a Biostatistician at Stanford Medicine in the [Quantitative Sciences Unit](https://med.stanford.edu/qsu.html) where I worked with a variety of physicians on study design, power calculation, and analysis.  Before that, I was a senior research data analyst at Johns Hopkins, where I worked with some really [cool doctors and epidemiologists](https://transplantepi.org/) on kidney and liver transplant problems in the US.  I'm all about improving and saving lives.
 
