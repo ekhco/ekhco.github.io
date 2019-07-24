@@ -5,7 +5,7 @@ draft = false
 +++
 
 {{< figure class="image main" src="/images/pic03.jpg" >}}
-My H-index on Scopus is 10. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can [contact me or checkout my social media](#contact)
+My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can [contact me or checkout my social media](#contact)
 
 1. Treat E, Chow EKH, Peirpert JD, Waterman A, Segev DL, Veale J. Outcomes of Shipped Kidney Paired Donation with Additional Cold Ischemia Time. (in draft)
 2. Chow EKH, Massie AB, Luo X, Wickliffe CE, Gentry SE, Cameron AM, Segev DL. Waitlist Outcomes of liver Transplant Candidates Who Were Reprioritized Under Share 35. AJT 2016.

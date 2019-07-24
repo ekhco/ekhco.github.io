@@ -1,54 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eric Chow: Data Scientist</title>
-    <link>https://ekhco.github.io/</link>
-    <description>Recent content on Eric Chow: Data Scientist</description>
+    <title>Eric Chow</title>
+    <link>/</link>
+    <description>Recent content on Eric Chow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Eric Chow</copyright>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
     
-	<atom:link href="https://ekhco.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>A Plain Markdown Post</title>
-      <link>https://ekhco.github.io/post/2016-12-30-hello-markdown/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>https://ekhco.github.io/post/2016-12-30-hello-markdown/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
     
     <item>
       <title>About</title>
-      <link>https://ekhco.github.io/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <link>/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ekhco.github.io/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+      <guid>/intro/</guid>
+      <description>Hello, I&amp;rsquo;m Eric! Currently, I work at Stanford Univeristy in the Quantitative Sciences Unit as a Biostatistician. Before that, I spent 5 years at Johns Hopkins Univeristy in Baltimore, where I worked with some really cool doctors and epidemiologists on kidney and liver transplant problems in the US. I&amp;rsquo;m all about improving and saving lives.
+I&amp;rsquo;m a pro at survival analysis, Markov modelling, decision processing modelling, regression, and stochastic simulation.</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://ekhco.github.io/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Art</title>
+      <link>/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ekhco.github.io/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/art/</guid>
+      <description>Medical Illustrations I could always draw very well. I had an elementary school art teacher who would always say that I had &amp;ldquo;the eye&amp;rdquo; in a very freaky ominous way. I&amp;rsquo;m not sure where this eye is, but I think I just have very excellent fine motor skills. I started drawing like this when I was about 11 years old. At the time, my favorite subject were dinosaurs.</description>
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>https://ekhco.github.io/post/2015-01-01-lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Work</title>
+      <link>/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ekhco.github.io/post/2015-01-01-lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/work/</guid>
+      <description>Spontaneous Coronary Artery Dissection I am the statistical lead on a multi-center study of SCAD. I advise the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
+Liver Simulated Allocation Model Allocation of donated organs to people with liver disease is challenging in the US. I worked with mathematicians, data from the Scientific Registry for Transplant Recipients, and used simulation models to study hypothetical allocation systems that give people with liver disease a fairer chance at a life-saving liver transplant, regardless of where they live.</description>
+    </item>
+    
+    <item>
+      <title>Pubmed</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>My H-index on Scopus is 10. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can contact me or checkout my social media
+ Treat E, Chow EKH, Peirpert JD, Waterman A, Segev DL, Veale J. Outcomes of Shipped Kidney Paired Donation with Additional Cold Ischemia Time. (in draft) Chow EKH, Massie AB, Luo X, Wickliffe CE, Gentry SE, Cameron AM, Segev DL.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Do you have an interesting problem in medicine? Do you have lots of data? Get in touch with me! (echow8@stanford.edu) I&amp;rsquo;d love to help you figure it out. I&amp;rsquo;m available for statistical consultation, or more involved analytical work as well.
+Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here&amp;rsquo;s my mountain project.
+instagram github linkedin  </description>
     </item>
     
   </channel>
