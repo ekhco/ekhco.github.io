@@ -6,7 +6,7 @@ draft = false
 
 {{< figure class="image main" src="/images/pic02.jpg" >}}
 ### Lung Cancer Risk Factor R Package
-So your smoking history can inform us about your risk of lung cancer, but what about those of us who don't smoke? I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET. [check it out](https://github.com/ekhco/LCsim)
+So your smoking history can inform us about your risk of lung cancer, but what about those of us who don't smoke? I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET.  [Check it out on my github.](https://github.com/ekhco/LCsim)
 
 ### Spontaneous Coronary Artery Dissection Case-Control Study
 I was the statistical lead on a multi-center study of SCAD. I advised the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
