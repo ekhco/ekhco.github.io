@@ -34,8 +34,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/</guid>
-      <description>Lung Cancer Risk Factor R Package So your smoking history can inform us about your risk of lung cancer, but what about those of us who don&amp;rsquo;t smoke? I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET. check it out
-Spontaneous Coronary Artery Dissection Case-Control Study I was the statistical lead on a multi-center study of SCAD. I advised the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection.</description>
+      <description>Lung Cancer Risk Factor R Package So your smoking history can inform us about your risk of lung cancer, but what about those of us who don&amp;rsquo;t smoke? I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET. Check it out on my github.
+Spontaneous Coronary Artery Dissection Case-Control Study I was the statistical lead on a multi-center study of SCAD.</description>
     </item>
     
     <item>
