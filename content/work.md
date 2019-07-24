@@ -6,10 +6,13 @@ draft = false
 
 {{< figure class="image main" src="/images/pic02.jpg" >}}
 ### Lung Cancer Risk Factor R Package
-I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET.
+So your smoking history can inform us about your risk of lung cancer, but what about those of us who don't smoke? I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET. [check it out](https://github.com/ekhco/LCsim)
 
-### Spontaneous Coronary Artery Dissection
-I was the statistical lead on a multi-center study of SCAD. I advise the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
+### Spontaneous Coronary Artery Dissection Case-Control Study
+I was the statistical lead on a multi-center study of SCAD. I advised the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
+
+### Predicting HIV in the Demographic Health Surveys
+I use conditional inference trees to see if I can find novel factors that may be predictive of HIV status of individuals in sub-Saharan Africa, using sort-of big data from the Demographic Health Surveys.
 
 ### Liver Simulated Allocation Model
 Allocation of donated organs to people with liver disease is challenging in the US. I worked with [mathematicians](https://www.usna.edu/Users/math/gentry/index.php), data from the [Scientific Registry for Transplant Recipients](http://www.srtr.org), and used simulation models to study hypothetical allocation systems that give people with liver disease a fairer chance at a life-saving liver transplant, regardless of where they live.
