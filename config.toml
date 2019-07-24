@@ -8,7 +8,7 @@ disableRSS = true
 
 [params]
   title = "Eric Chow"
-  description = 'Medical Student &bull; Chicago Medical School at the Rosalind Franklin University  <p> I am a data-scientist turned med-student with 8+ years of experience in biostatitics and research. I was a biostatistician at Stanford prior to starting med school. My ambition is to become some kind of physician-data-scientist and to save and improve lives with math and medicine. I also climb rock and ice and do mountain Search and Rescue on my weekends and free-time.</p>'
+  description = 'Medical Student & Data Scientist &bull; Chicago Medical School  <p> I am a data-scientist turned med-student with 8+ years of experience in biostatitics and research. I was a biostatistician at Stanford prior to starting med school. My ambition is to become some kind of physician-data-scientist and to save and improve lives with math and medicine. I also climb rock and ice and do mountain Search and Rescue on my weekends and free-time.</p>'
   logo = ""
 copyright = "Eric Chow 2019"
 

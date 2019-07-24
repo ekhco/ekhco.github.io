@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/intro/</guid>
-      <description>Hello, I&amp;rsquo;m Eric! Currently, I work at Stanford Univeristy in the Quantitative Sciences Unit as a Biostatistician. Before that, I spent 5 years at Johns Hopkins Univeristy in Baltimore, where I worked with some really cool doctors and epidemiologists on kidney and liver transplant problems in the US. I&amp;rsquo;m all about improving and saving lives.
-I&amp;rsquo;m a pro at survival analysis, Markov modelling, decision processing modelling, regression, and stochastic simulation.</description>
+      <description>Hello, I&amp;rsquo;m Eric! Currently, I am a medical student at the Chicago Medical School at the Rosalind Franklin University with interests in wilderness medicine, critical care, and also radiology (I have no clue what I&amp;rsquo;m going to end up doing). Previously, I was a Biostatistician at Stanford Medicine in the Quantitative Sciences Unit. Before that, I was a senior research data analyst at Johns Hopkins, where I worked with some really cool doctors and epidemiologists on kidney and liver transplant problems in the US.</description>
     </item>
     
     <item>
@@ -35,8 +34,8 @@ I&amp;rsquo;m a pro at survival analysis, Markov modelling, decision processing 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/</guid>
-      <description>Spontaneous Coronary Artery Dissection I am the statistical lead on a multi-center study of SCAD. I advise the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
-Liver Simulated Allocation Model Allocation of donated organs to people with liver disease is challenging in the US. I worked with mathematicians, data from the Scientific Registry for Transplant Recipients, and used simulation models to study hypothetical allocation systems that give people with liver disease a fairer chance at a life-saving liver transplant, regardless of where they live.</description>
+      <description>Lung Cancer Risk Factor R Package I developed an R package that simulates lung cancer risk factors using the smoking history generator developed by CISNET.
+Spontaneous Coronary Artery Dissection I was the statistical lead on a multi-center study of SCAD. I advise the primary investigators on study design, matching of cases and controls, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.</description>
     </item>
     
     <item>
@@ -45,7 +44,7 @@ Liver Simulated Allocation Model Allocation of donated organs to people with liv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>My H-index on Scopus is 10. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can contact me or checkout my social media
+      <description>My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can contact me or checkout my social media
  Treat E, Chow EKH, Peirpert JD, Waterman A, Segev DL, Veale J. Outcomes of Shipped Kidney Paired Donation with Additional Cold Ischemia Time. (in draft) Chow EKH, Massie AB, Luo X, Wickliffe CE, Gentry SE, Cameron AM, Segev DL.</description>
     </item>
     
@@ -55,7 +54,7 @@ Liver Simulated Allocation Model Allocation of donated organs to people with liv
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>Do you have an interesting problem in medicine? Do you have lots of data? Get in touch with me! (echow8@stanford.edu) I&amp;rsquo;d love to help you figure it out. I&amp;rsquo;m available for statistical consultation, or more involved analytical work as well.
+      <description>You can get in touch with me about research, biostatistics, medicine, search and rescue, climbing, or adventuring by email Get in touch with me! (echow8@my.rfums.org)
 Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here&amp;rsquo;s my mountain project.
 instagram github linkedin  </description>
     </item>
