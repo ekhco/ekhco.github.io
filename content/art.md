@@ -14,7 +14,7 @@ Here's another example. For those familiar with Gray's Anatomy, you may notice t
 
 {{< figure class="image main" src="/images/pic06.jpg" >}}
 
-I had a shoulder injury recently, so I studied the anatomy of the joint, muscles, tendons, and ligaments.  This (and the brain) are my more recent works.  The shoulder is pretty complicated, but drawing it out helped me understand my injury better.
+Here is a study I did of the anatomy of the shoulder. I did it because I had a shoulder injury from climbing, and I learned that the shoulder is hella complicated.
 
 Alright, back to our regular program of science!
 

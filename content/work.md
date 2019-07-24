@@ -6,10 +6,10 @@ draft = false
 
 {{< figure class="image main" src="/images/pic02.jpg" >}}
 ### Lung Cancer Risk Factor R Package
-A person's smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can't we get lung cancer too, and how do you figure out our risk? I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET.  [Check it out on my github.](https://github.com/ekhco/LCsim)
+A person's smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can't we get lung cancer too, and how do you figure out our risk? Along w Summer Han,  I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET.  [Check it out on my github.](https://github.com/ekhco/LCsim)
 
-###  Bias and Efficiency in Matched Study Designs with Varying Cluster Size
-I developed a greedy-match algorithm in R that matches cases and controls in a varying 1:n (instead of a fixed) ratio, for studies where it is difficult to recruit sufficient controls.  I presented this work at the Joint Statistical Meeting in Colorado (JSM 2019).
+###  Bias and Efficiency in Matched Study Designs
+I developed and tested an algorithm in R that matches cases and controls with varying cluster ratios (instead of a fixed 1:n ratio), for studies where it is difficult to recruit sufficient controls.  I presented this work at the Joint Statistical Meeting in Colorado (JSM 2019).
 
 ### Spontaneous Coronary Artery Dissection
 I was the statistical lead on a multi-center study of SCAD. I advised the primary investigators on study design, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.
