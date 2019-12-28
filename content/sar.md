@@ -12,7 +12,7 @@ As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and cl
 
 Learn more about [the Bay Area Mountain Rescue Unit here](http://www.bamru.org). 
 
-How did I get into this? Well, I've been rock climbing and recreating in the mountains for over two decades. I can lead 5.9ish trad in Yosemite. Oh look! this is what I look like on weekends:
+How did I get into this? Well, I've been rock climbing and recreating in the mountains for over two decades. I can lead 5.9ish trad in Yosemite. This is what I look like on weekends:
 
 {{< figure class="image main" src="/images/pic07a.jpg" >}}
 
