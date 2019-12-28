@@ -1,5 +1,5 @@
 +++
-title = "SAR"
+title = "Search & Rescue"
 weight = 28
 draft = false
 +++
