@@ -6,10 +6,6 @@
   </url>
   
   <url>
-    <loc>//#art</loc>
-  </url>
-  
-  <url>
     <loc>//#work</loc>
   </url>
   
@@ -19,6 +15,10 @@
   
   <url>
     <loc>//#about</loc>
+  </url>
+  
+  <url>
+    <loc>//#art</loc>
   </url>
   
   <url>
