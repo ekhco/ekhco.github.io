@@ -16,4 +16,4 @@ How did I get into this? Well, I've been rock climbing and recreating in the mou
 
 {{< figure class="image main" src="/images/pic07a.jpg" >}}
 
-Photo courtesy of [@wraysinclairphoto](www.wraysinclair.com)
+Photo courtesy of [@wraysinclairphoto](https://www.wraysinclair.com)
