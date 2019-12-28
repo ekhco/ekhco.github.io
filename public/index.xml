@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eric Chow</title>
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/intro/</guid>
-      <description>Hello, I&amp;rsquo;m Eric! Currently, I am a medical student at the Chicago Medical School at the Rosalind Franklin University with interests in wilderness medicine, critical care, and also radiology. Previously, I was a Biostatistician at Stanford Medicine in the Quantitative Sciences Unit where I worked with a variety of physicians on study design, power calculation, and analyses. Before that, I was a senior research data analyst at Johns Hopkins, where I worked with some really cool doctors and epidemiologists on kidney and liver transplant problems in the US.</description>
+      <description>Hello, I&#39;m Eric! Currently, I am a medical student at the Chicago Medical School at the Rosalind Franklin University with interests in wilderness medicine, critical care, and also radiology. Previously, I was a Biostatistician at Stanford Medicine in the Quantitative Sciences Unit where I worked with a variety of physicians on study design, power calculation, and analyses. Before that, I was a senior research data analyst at Johns Hopkins, where I worked with some really cool doctors and epidemiologists on kidney and liver transplant problems in the US.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/</guid>
-      <description>Lung Cancer Risk Factor R Package A person&amp;rsquo;s smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can&amp;rsquo;t we get lung cancer too, and how do you figure out our risk? Along w Summer Han, I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET. Check it out on my github.</description>
+      <description>Lung Cancer Risk Factor R Package A person&#39;s smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can&#39;t we get lung cancer too, and how do you figure out our risk? Along w Summer Han, I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET. Check it out on my github.</description>
     </item>
     
     <item>
@@ -34,8 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sar/</guid>
-      <description>I have been a Mountain Search and Rescue Volunteer with the Bay Area Mountain Rescue Unit (BAMRU) in California since 2018. In my first year, I logged 350+ operational hours over 13 searches in the Sierras and all over the state. I was awarded Rookie of the year.
-As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and climbers in the most difficult and remote mountain terrain in California.</description>
+      <description>I have been a Mountain Search and Rescue Volunteer with the Bay Area Mountain Rescue Unit (BAMRU) in California since 2018. In my first year, I logged 350+ operational hours in over a dozen searches in the Sierras and all over the state. It&#39;s not easy! Training in my first-year took 500hrs (my training is still ongoing) and I have to work effectively and safely with my team-mates under circumstances of extreme pressure.</description>
     </item>
     
     <item>
@@ -54,7 +53,8 @@ As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/art/</guid>
-      <description>Medical Illustrations I could always draw very well. I had an elementary school art teacher who would always say that I had &amp;ldquo;the eye&amp;rdquo; in a very freaky ominous way. I&amp;rsquo;m not sure where this eye is, but I think I just have very excellent fine motor skills. I started drawing like this when I was about 11 years old. At the time, my favorite subject were dinosaurs.</description>
+      <description>Medical Illustrations I could always draw very well. I had an elementary school art teacher who would always say that I had &amp;ldquo;the eye&amp;rdquo; in a very freaky ominous way. I&#39;m not sure where this eye is, but I think I just have very excellent fine motor skills. I started drawing like this when I was about 11 years old. At the time, my favorite subject were dinosaurs.
+ Here&#39;s another example.</description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@ As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and cl
       
       <guid>/contact/</guid>
       <description>You can get in touch with me about research, biostatistics, data-science, medicine, search and rescue, climbing, adventuring, (or anything really) by email: echow8@my.rfums.org
-Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here&amp;rsquo;s my mountain project.
+Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here&#39;s my [mountain project.] (https://www.mountainproject.com/u/110988730)
 instagram github linkedin  </description>
     </item>
     
