@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-	<meta name="generator" content="Hugo 0.58.3" />
+	<meta name="generator" content="Hugo 0.62.0" />
 		<title>Eric Chow</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -55,13 +55,9 @@
     <img src="/images/pic08.jpg"/> 
 </figure>
 
-
-<p>Hello, I&rsquo;m Eric! Currently, I am a medical student at the Chicago Medical School at the Rosalind Franklin University with interests in wilderness medicine, critical care, and also radiology. Previously, I was a Biostatistician at Stanford Medicine in the <a href="https://med.stanford.edu/qsu.html">Quantitative Sciences Unit</a> where I worked with a variety of physicians on study design, power calculation, and analyses.  Before that, I was a senior research data analyst at Johns Hopkins, where I worked with some really <a href="https://transplantepi.org/">cool doctors and epidemiologists</a> on kidney and liver transplant problems in the US.</p>
-
-<p>I&rsquo;m a pro at survival analysis, Markov modelling, decision processing modelling, regression, and stochastic simulation. I also do study design, power analyses, and grant work (ie: I know what a p-value is and how not to mis-use it). I am a hypothesis-driven data scientist, I care more about what we can learn about our world, than what a machine learns from data. My undergrad was in industrial engineer at the University of Toronto (yes, I am Canadian. Yes, I know combinatorial optimization). But I also have my masters in decision sciences from the London School of Economics, and also a masters in health informatics from the Johns Hopkins School of Medicine.</p>
-
+<p>Hello, I'm Eric! Currently, I am a medical student at the Chicago Medical School at the Rosalind Franklin University with interests in wilderness medicine, critical care, and also radiology. Previously, I was a Biostatistician at Stanford Medicine in the <a href="https://med.stanford.edu/qsu.html">Quantitative Sciences Unit</a> where I worked with a variety of physicians on study design, power calculation, and analyses.  Before that, I was a senior research data analyst at Johns Hopkins, where I worked with some really <a href="https://transplantepi.org/">cool doctors and epidemiologists</a> on kidney and liver transplant problems in the US.</p>
+<p>I'm a pro at survival analysis, Markov modelling, decision processing modelling, regression, and stochastic simulation. I also do study design, power analyses, and grant work (ie: I know what a p-value is and how not to mis-use it). I am a hypothesis-driven data scientist, I care more about what we can learn about our world, than what a machine learns from data. My undergrad was in industrial engineer at the University of Toronto (yes, I am Canadian. Yes, I know combinatorial optimization). But I also have my masters in decision sciences from the London School of Economics, and also a masters in health informatics from the Johns Hopkins School of Medicine.</p>
 <p>I code in Stata, R, SAS, and also C for speed. The whitespace of Python drives me crazy, but I do it when I have to.</p>
-
 <p>Check out <a href="#work">some examples of my work</a>.</p>
 
 </article>
@@ -69,45 +65,26 @@
             
               <article id="work">
   <h1>Data Science</h1>
-  
-
-<figure class="image main">
+  <figure class="image main">
     <img src="/images/pic02.jpg"/> 
 </figure>
 
-
 <h3 id="lung-cancer-risk-factor-r-package">Lung Cancer Risk Factor R Package</h3>
-
-<p>A person&rsquo;s smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can&rsquo;t we get lung cancer too, and how do you figure out our risk? Along w Summer Han,  I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET.  <a href="https://github.com/ekhco/LCsim">Check it out on my github.</a></p>
-
+<p>A person's smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can't we get lung cancer too, and how do you figure out our risk? Along w Summer Han,  I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET.  <a href="https://github.com/ekhco/LCsim">Check it out on my github.</a></p>
 <h3 id="bias-and-efficiency-in-matched-study-designs">Bias and Efficiency in Matched Study Designs</h3>
-
 <p>I developed and tested an algorithm in R that matches cases and controls with varying cluster ratios (instead of a fixed 1:n ratio), for studies where it is difficult to recruit sufficient controls.  I presented this work at the Joint Statistical Meeting in Colorado (JSM 2019).</p>
-
 <h3 id="spontaneous-coronary-artery-dissection">Spontaneous Coronary Artery Dissection</h3>
-
 <p>I was the statistical lead on a multi-center study of SCAD. I advised the primary investigators on study design, appropriate statistical methods, and data collection. I have a junior statistician who helps me with this, which is nice.</p>
-
 <h3 id="predicting-hiv-in-the-demographic-health-surveys">Predicting HIV in the Demographic Health Surveys</h3>
-
 <p>I used conditional inference trees to see if there were any novel factors that may be predictive of HIV status of individuals in sub-Saharan Africa, using sort-of big data from the Demographic Health Surveys.</p>
-
 <h3 id="liver-simulated-allocation-model">Liver Simulated Allocation Model</h3>
-
 <p>Allocation of donated organs to people with liver disease is challenging in the US. I worked with <a href="https://www.usna.edu/Users/math/gentry/index.php">mathematicians</a>, data from the <a href="http://www.srtr.org">Scientific Registry for Transplant Recipients</a>, and used simulation models to study hypothetical allocation systems that give people with liver disease a fairer chance at a life-saving liver transplant, regardless of where they live.</p>
-
 <h3 id="kidney-paired-donation">Kidney Paired Donation</h3>
-
 <p>The <a href="http://www.kidneyregistry.org">National Kidney Registry</a> arranges domino kidney transplants in the US.  We studied the associations between transporting kidneys (and the time they are put on ice) and how well the kidneys and patients do. This required plenty of data cleaning, linking, and survival/logistic regression in Stata.</p>
-
 <h3 id="detecting-pneumonia-with-machine-learning">Detecting Pneumonia with Machine Learning</h3>
-
 <p>Can a stethoscope and a smartphone be used to listen to your breathing and warn you about potentially abnormal conditions? <a href="http://clinicloud.com">Clinicloud.com</a> has the answer to this problem. I worked with them to develop neural-net algorithms for heart-rate and pneumonia detection in R.</p>
-
 <h3 id="patient-centered-decision-modelling">Patient-Centered Decision Modelling</h3>
-
 <p>I wrote Markov models in C (and PhP) to help inform patient-centered decision problems.  In one decision problem, kids with kidney disease have to decide whether they should accept a kidney from a willing donor that they know, or if they should wait to get one from the deceased donor waitlist and &ldquo;save&rdquo; the other one for later. <a href="http://www.transplantmodels.com">Check out the online decision-tools I have made here.</a></p>
-
 <p>Check out <a href="#about">my peer-reviewed papers</a></p>
 
 </article>
@@ -119,12 +96,15 @@
     <img src="/images/pic09.jpg"/> 
 </figure>
 
-
-<p>I have been a Mountain Search and Rescue Volunteer with the Bay Area Mountain Rescue Unit <a href="http://www.bamru.org">(BAMRU)</a> in California since 2018. In my first year, I logged 350+ operational hours over 13 searches in the Sierras and all over the state. I was awarded Rookie of the year.</p>
-
-<p>As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and climbers in the most difficult and remote mountain terrain in California.</p>
-
+<p>I have been a Mountain Search and Rescue Volunteer with the Bay Area Mountain Rescue Unit <a href="http://www.bamru.org">(BAMRU)</a> in California since 2018. In my first year, I logged 350+ operational hours in over a dozen searches in the Sierras and all over the state. It's not easy! Training in my first-year took 500hrs (my training is still ongoing) and I have to work effectively and safely with my team-mates under circumstances of extreme pressure. I was awarded 2018 Rookie of the year in &ldquo;recognition of exceptional volunteer service and outstanding BAMRU achievements.&rdquo;</p>
+<p>As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and climbers in the most difficult and remote mountain terrain in California. Ocassionally, we get flown in by helicopter and are expected to be self-sufficient for 72hrs; but usually we hike in and out and are supported very generously by the local communities whom we are serving.</p>
 <p>Learn more about <a href="http://www.bamru.org">the Bay Area Mountain Rescue Unit here</a>.</p>
+<p>How did I get into this? Well, I've been rock climbing and recreating in the mountains for over two decades. I can lead 5.9ish trad in Yosemite. Oh look! this is what I look like on weekends:</p>
+<figure class="image main">
+    <img src="/images/pic07a.jpg"/> 
+</figure>
+
+<p>Photo courtesy of <a href="www.wraysinclair.com">@wraysinclairphoto</a></p>
 
 </article>
 
@@ -136,7 +116,6 @@
 </figure>
 
 My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can <a href="#contact">contact me or checkout my social media</a></p>
-
 <ol>
 <li>Treat E, Chow EKH, Peirpert JD, Waterman A, Segev DL, Veale J. Outcomes of Shipped Kidney Paired Donation with Additional Cold Ischemia Time. (in draft)</li>
 <li>Chow EKH, Massie AB, Luo X, Wickliffe CE, Gentry SE, Cameron AM, Segev DL. Waitlist Outcomes of liver Transplant Candidates Who Were Reprioritized Under Share 35. AJT 2016.</li>
@@ -148,7 +127,7 @@ My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if
 <li>Massie AB, Chow EKH, Wickliffe CE, Luo X, Gentry SE, Mulligan DC, Segev DL. Early Changes in Liver Distribution Following Implementation of Share 35. Am J Transplant 2015; 15: 659-667.</li>
 <li>Gentry SE, Chow EKH, Massie AB, Luo X, Zaun D, Snyder JJ, Israni AK, Kasiske B, Segev DL. Liver Sharing and Organ Procurement Organization Performance. Liver Transplantation 2015; 21: 1031-1039.</li>
 <li>Orandi BJ, Chow EKH, Hsu A, Gupta N, Van Arendonk KJ, Garonzik-Wang JM et al. Quantifying Renal Allograft Loss Following Early Antibody-Mediated Rejection. Am J of Transplantation 2015; 15: 489-498.</li>
-<li>Chow EKH<em>, Van Arendonk K</em>, James NT, Orandi BJ, Ellison TA, Smith JM, Colombani PM, Segev DL. Choosing the Order of Deceased Donor and Living Donor Kidney Transplantation in Pediatric Recipients: A Markov Decision Process Model. Transplantation 2015; 99(2).</li>
+<li>Chow EKH*, Van Arendonk K*, James NT, Orandi BJ, Ellison TA, Smith JM, Colombani PM, Segev DL. Choosing the Order of Deceased Donor and Living Donor Kidney Transplantation in Pediatric Recipients: A Markov Decision Process Model. Transplantation 2015; 99(2).</li>
 <li>Hahn-Goldberg S, Chow EKH, Appel E, Ko FTF, Tan P, Gavin MB et al. Discrete Event Simulation of Patient Admissions to a Neurovascular Unit. J of Healthcare Engineering 2014; 5(3).</li>
 <li>Gentry SE, Chow EKH, Wickliffe CE, Massie AB, Segev DL. Impact of Broader Sharing on Transport Time for Deceased Donor Livers. Liver Transplantation 2014; 20(10):1237-43.</li>
 <li>Massie AB, Luo X, Chow EKH, Alejo JL, Desai NM, Segev DL. Survival Benefit of Primary Deceased Donor Transplantation With High-KDPI Kidneys. Am J Transplant 2014; 14: 2310-2316.</li>
@@ -166,33 +145,23 @@ My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if
             
               <article id="art">
   <h1>Art</h1>
-  
-
-<figure class="image main">
+  <figure class="image main">
     <img src="/images/pic04.jpg"/> 
 </figure>
 
-
 <h3 id="medical-illustrations">Medical Illustrations</h3>
-
-<p>I could always draw very well.  I had an elementary school art teacher who would always say that I had &ldquo;the eye&rdquo; in a very freaky ominous way.  I&rsquo;m not sure where this eye is, but I think I just have very excellent fine motor skills.  I started drawing like this when I was about 11 years old.  At the time, my favorite subject were dinosaurs.</p>
-
+<p>I could always draw very well.  I had an elementary school art teacher who would always say that I had &ldquo;the eye&rdquo; in a very freaky ominous way.  I'm not sure where this eye is, but I think I just have very excellent fine motor skills.  I started drawing like this when I was about 11 years old.  At the time, my favorite subject were dinosaurs.</p>
 <figure class="image main">
     <img src="/images/pic05b.jpg"/> 
 </figure>
 
-
-<p>Here&rsquo;s another example. For those familiar with Gray&rsquo;s Anatomy, you may notice that my inspiration for these sketches come from there.  Except this cross section of a heart. I forget where I saw this from.</p>
-
+<p>Here's another example. For those familiar with Gray's Anatomy, you may notice that my inspiration for these sketches come from there.  Except this cross section of a heart. I forget where I saw this from.</p>
 <figure class="image main">
     <img src="/images/pic06.jpg"/> 
 </figure>
 
-
 <p>Here is a study I did of the anatomy of the shoulder. I did it because I had a shoulder injury from climbing, and I learned that the shoulder is hella complicated.</p>
-
 <p>Alright, back to our regular program of science!</p>
-
 <p>Check out <a href="#about">my peer-reviewed papers</a></p>
 
 </article>
@@ -201,9 +170,7 @@ My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if
               <article id="contact">
   <h1>Contact</h1>
   <p>You can get in touch with me about research, biostatistics, data-science, medicine, search and rescue, climbing, adventuring, (or anything really) by email: <a href="mailto:echow8@my.rfums.org">echow8@my.rfums.org</a></p>
-
-<p>Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here&rsquo;s my <a href="https://www.mountainproject.com/u/110988730">mountain project.</a></p>
-
+<p>Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here's my [mountain project.] (<a href="https://www.mountainproject.com/u/110988730">https://www.mountainproject.com/u/110988730</a>)</p>
 <ul class="icons">
 
 	<li><a href="http://www.instagram.com/ericlimbs" class="icon fa-instagram"><span class="label">instagram</span></a></li>
