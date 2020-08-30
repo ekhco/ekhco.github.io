@@ -8,9 +8,9 @@ disableRSS = true
 
 [params]
   title = "Eric Chow"
-  description = 'Medical Student & Data Scientist &bull; Chicago Medical School  <p> I am a data-scientist turned med-student with 8+ years of experience in biostatitics and medical research. I was a Biostatistician at Stanford, prior to starting med school. My ambition is to become a physician-data-scientist so I can save and improve lives with math and medicine. I also rock climb and volunteer in mountain Search and Rescue in my free time.</p>'
+  description = 'Medical Student & Data Scientist &bull; Chicago Medical School  <p> I am a medical student in Chicago and former biostatitician from Stanford with 8+ years of experience. I spend my free time rock climbing, I also volunteer in Mountain Search and Rescue.</p>'
   logo = ""
-copyright = "Eric Chow 2019"
+copyright = "Eric Chow 2020"
 
 
 [[params.social]]

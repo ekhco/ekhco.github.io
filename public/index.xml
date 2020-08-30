@@ -25,7 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/work/</guid>
-      <description>Lung Cancer Risk Factor R Package A person&#39;s smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can&#39;t we get lung cancer too, and how do you figure out our risk? Along w Summer Han, I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET. Check it out on my github.</description>
+      <description>COVID-19 Kidney Transplant Web App What does this COVID-19 pandemic mean for the thousands of people on the kidney transplant waitlist? Should surgeons wait for it to be over? Are these patients at a greater risk going to dialysis every week? I worked with some Hopkins experts to make a simulation. Check out the App.
+Lung Cancer Risk Factor R Package A person&#39;s smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked?</description>
     </item>
     
     <item>
@@ -43,8 +44,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>My H-index on Scopus is 15. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can contact me or checkout my social media
- Treat E, Chow EKH, Peirpert JD, Waterman A, Segev DL, Veale J. Outcomes of Shipped Kidney Paired Donation with Additional Cold Ischemia Time. (in draft) Chow EKH, Massie AB, Luo X, Wickliffe CE, Gentry SE, Cameron AM, Segev DL.</description>
+      <description>My H-index on Scopus is 17. I can be found as Eric KH Chow on the pubmeds. Or if you want to get in touch, you can contact me or checkout my social media. A selection of works I was involved in:
+ Church E et al, Pregnancy after direct cerebral bypass for Moyamoya disease. J Neuro Surg; Nov 15, 2019. Pargaonkar V et al, Accuracy of non-invasive stress testing in women and men with angina in the absence of obstructive coronary artery disease.</description>
     </item>
     
     <item>
@@ -63,7 +64,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>You can get in touch with me about research, biostatistics, data-science, medicine, search and rescue, climbing, adventuring, (or anything really) by email: echow8@my.rfums.org
+      <description>You can get in touch with me about research, biostatistics, data-science, medicine, search and rescue, climbing, adventuring, (or anything really) by email: eric.chow@my.rfums.org
 Also, do you climb? do you have an adventure coming up and need a partner? Tell me about it! I lead 5.8 trad, 5.10c sport. Here&#39;s my [mountain project.] (https://www.mountainproject.com/u/110988730)
 instagram github linkedin  </description>
     </item>

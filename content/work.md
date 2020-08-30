@@ -5,6 +5,9 @@ draft = false
 +++
 
 {{< figure class="image main" src="/images/pic02.jpg" >}}
+### COVID-19 Kidney Transplant Web App
+What does this COVID-19 pandemic mean for the thousands of people on the kidney transplant waitlist? Should surgeons wait for it to be over? Are these patients at a greater risk going to dialysis every week? I worked with some Hopkins experts to make a simulation.  [Check out the App.](http://transplantmodels.com/covid_sim)
+
 ### Lung Cancer Risk Factor R Package
 A person's smoking history can inform them about their risk of lung cancer, but what about those of us who have never smoked? can't we get lung cancer too, and how do you figure out our risk? Along w Summer Han,  I developed an R package that simulates other lung cancer risk factors using the smoking history generator developed by CISNET.  [Check it out on my github.](https://github.com/ekhco/LCsim)
 
