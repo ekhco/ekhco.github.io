@@ -33,9 +33,9 @@
       $window.on('load', function() {
         window.setTimeout(function() {
           $body.removeClass('is-loading');
-        }, 1);
+        }, 10);
       }); 
-
+ 
     // Fix: Placeholder polyfill.
       $('form').placeholder();
 

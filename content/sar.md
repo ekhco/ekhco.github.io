@@ -11,9 +11,3 @@ I have been a Mountain Search and Rescue Volunteer with the Bay Area Mountain Re
 As a mountain SAR volunteer, I was on-call 24-7 to respond to lost hikers and climbers in the most difficult and remote mountain terrain in California. Ocassionally, we get flown in by helicopter and are expected to be self-sufficient for 72hrs; but usually we hike in and out and are supported very generously by the local communities whom we are serving.
 
 Learn more about [the Bay Area Mountain Rescue Unit here](http://www.bamru.org). 
-
-How did I get into this? Well, I've been rock climbing and recreating in the mountains for over two decades. I can lead 5.9ish trad in Yosemite. This is what I look like on weekends:
-
-{{< figure class="image main" src="/images/pic07a.jpg" >}}
-
-Photo courtesy of [@wraysinclairphoto](https://www.wraysinclair.com)
