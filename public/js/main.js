@@ -26,16 +26,14 @@
       $main = $('#main'),
       $main_articles = $main.children('article');
 
-/*
     // Disable animations/transitions until the page has loaded.
       $body.addClass('is-loading');
 
-      $window.on('load', function() {
+      $window.on('load', function() {      // load
         window.setTimeout(function() {
           $body.removeClass('is-loading');
         }, 50);
       }); 
- */
  
     // Fix: Placeholder polyfill.
       $('form').placeholder();
