@@ -12,18 +12,3 @@ disableRSS = true
   logo = ""
 copyright = "Eric Chow 2020"
 
-
-[[params.social]]
-  medium = "instagram"
-  icon = "instagram"
-  link = "http://www.instagram.com/ericlimbs"
-
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "http://www.github.com/ekhco"
-
-[[params.social]]
-  medium = "linkedin"
-  icon = "linkedin"
-  link = "https://www.linkedin.com/in/erickhchow/"
