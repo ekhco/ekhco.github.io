@@ -1,3 +1,7 @@
+2026: 
+
+Just update the MASTER html file and commit it to pudate the website.
+-----
 
 in Rstudio:
 library(blogdown)
